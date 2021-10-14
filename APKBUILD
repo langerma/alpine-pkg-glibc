@@ -8,7 +8,7 @@ pkgdesc="GNU C Library compatibility layer"
 arch="aarch64"
 url="https://github.com/langerma/alpine-pkg-glibc"
 license="LGPL"
-source="https://github.com/langerma/docker-glibc-builder/releases/download/$pkgver-$_pkgrel-aarch64/glibc-bin-$pkgver-$_pkgrel-aarch64.tar.gz
+source="https://github.com/langerma/docker-glibc-builder/releases/download/$pkgver-$_pkgrel-aarch64/glibc-bin-$pkgver-aarch64.tar.gz
 nsswitch.conf
 ld.so.conf"
 subpackages="$pkgname-bin $pkgname-dev $pkgname-i18n"
